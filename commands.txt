@@ -1,0 +1,18 @@
+cd ../
+mkdir gittest
+cd gittest
+git init
+touch index.html
+touch styles.css
+touch aboutMe.txt
+git add *
+git commit initcommit
+git add *
+git commit updated aboutMe
+git add *
+git commit added favoriate movie
+git log
+git revert -n HEAD
+git add *
+git commit
+
